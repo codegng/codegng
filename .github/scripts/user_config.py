@@ -1,40 +1,24 @@
 from components import Heading, Value, TimeElapsed, Separator, WorkingOn, CommitGraph, GithubStats, Last24Hr, CurrentDate
-"""
-=====================================================================
-GITHUB TOKEN INSTRUCTIONS
-=====================================================================
-To use this script, you need a GitHub Personal Access Token (PAT).
-1. Go to https://github.com/settings/tokens
-2. Click "Generate new token" (classic).
-3. Give it a name, expiration, and check the "repo" and "user" scopes.
-4. Copy the generated token.
-5. Go to your repository settings -> Secrets and variables -> Actions.
-6. Click "New repository secret".
-7. Name it "GH_TOKEN" and paste your token in the secret field.
-=====================================================================
-"""
 
-# Layout
-# You can easily add, remove, or modify the structure of your profile using these components.
-# Check out components.py to understand what components are available and possible arguments for each. 
+# Layout configuration for your profile README neofetch layout
 
-Heading("Shreyash@Swami", CurrentDate())
-Value("OS", "Windows 11, Linux (Fedora)")
-TimeElapsed("Uptime", 2004, 12, 7)
-Value("IDE", "VSCode, Antigravity, IntelliJ")
-Value("Status", "Open For Work")
+Heading("Axxo@GitHub", CurrentDate())
+Value("OS", "Windows 11, Linux (Kali)")
+TimeElapsed("Uptime", 2006, 4, 1) # Customize or keep as a baseline
+Value("IDE", "VSCode, Neovim, Alight Motion")
+Value("Status", "Learning & Building")
 Separator()
 WorkingOn()
 Separator()
-Value("Languages.Programming", "JavaScript, Java, Python")
-Value("Languages.Real", "English, Hindi")
+Value("Languages.Programming", "Python, Bash, JavaScript")
+Value("Languages.Real", "English, Sinhala")
 Separator()
-Value("Hobbies.Software", "Web-Dev, AI, Cloud")
-Value("Hobbies.Hardware", "Table-Tennis, Reading")
+Value("Hobbies.Software", "Cybersecurity, Video Editing, Web-Dev")
+Value("Hobbies.Hardware", "PC Troubleshooting, Networking")
 Separator()
 Heading("Contact")
-Value("Email", "shreyash.swami2476@gmail.com")
-Value("LinkedIn", "in/shreyashswami")
+Value("Email", "your.email@gmail.com")
+Value("GitHub", "github.com/codegng")
 Separator()
 GithubStats("Repos", "Stars", "Commits", "Followers", "Pull.Requests", "Lines.of.Code")
 Separator()
