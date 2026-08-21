@@ -4,7 +4,7 @@ from components import Heading, Value, TimeElapsed, Separator, WorkingOn, Commit
 
 Heading("Axxo@GitHub", CurrentDate())
 Value("OS", "Windows 11, Linux (Kali)")
-TimeElapsed("Uptime", 2006, 4, 1) # Customize or keep as a baseline
+TimeElapsed("Uptime", 2008, 11, 9) # Customize or keep as a baseline
 Value("IDE", "VSCode, Neovim, Alight Motion")
 Value("Status", "Learning & Building")
 Separator()
