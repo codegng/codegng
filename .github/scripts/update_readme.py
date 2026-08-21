@@ -23,9 +23,9 @@ def fetch_graphql(query, token):
         return json.loads(response.read())
 
 def main():
-    token = os.environ.get("GH_TOKEN")
+    token = os.environ.get("METRICS_TOKEN")
     if not token:
-        print("No GH_TOKEN provided")
+        print("No METRICS_TOKEN provided")
         return
     
     repo_env = os.environ.get("GITHUB_REPOSITORY")
